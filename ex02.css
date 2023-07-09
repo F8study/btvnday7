@@ -1,0 +1,79 @@
+* {
+    font-family: 'Asap', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 1600px;
+    height: 300px;
+    background:
+     url( https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA)
+    no-repeat ;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 240px;
+    height: 180px;
+    background: white;
+    left: 80px;
+    bottom: 0px;
+    border-radius: 10px;
+}
+
+.content {
+    position: absolute;
+    width: 800px;
+    top: 150px;
+    left: 100px;
+}
+
+.content img {
+    float: left;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.content h1 {
+    margin: 30px auto;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+.content p {
+    display: inline-block;
+    margin-right: 30px;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+.content strong {
+    font-size: 20px;
+    text-shadow: 2px 2px #000;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.nav a {
+    margin: auto 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+.nav a:hover {
+    color: #bf4240;
+    border-bottom: 5px solid #bf4240;
+    opacity: 0.7;
+}

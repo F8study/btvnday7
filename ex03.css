@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+
+.container {
+    position: relative;
+    margin: 30px 110px;
+}
+
+.container h3 {
+    text-transform: uppercase;
+}
+
+.container .position {
+    position: absolute;
+    background-color: #e0e0e0;
+  }
+
+
+  .container .city {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.container .city button {
+    background: #e4e4e4;
+    font-weight: 800;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+.container .city button:hover {
+    background: #a5783d;
+    color: #fff;
+}
+
+.container .products {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 30px;
+}
+
+.products .box {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.products .box .img {
+    background: url(https://fastly.picsum.photos/id/88/1280/1707.jpg?hmac=NnkwPVDBTVxHkc4rALB_fyu-OHY2usdm7iRk5El7JC4)
+    no-repeat 0 0 / cover ;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    transition: transform 0.3s ease;
+
+}
+
+.box .img .content {
+    position: absolute;
+    margin: 30px;
+    width: 200px;
+}
+
+.img .content h4 {
+    color: #fff;
+    position:absolute;
+}
+
+.img .content p {
+    color: #fff;
+    position:absolute;
+    top: 170px;
+    font-size: 12px;
+}
